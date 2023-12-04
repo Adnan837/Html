@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.topnav{
+    font-size: 20px;
+    color: rgba(22, 124, 22, 0.655);
+    padding: 15px;
+  text-align: center;
+  text-decoration: dashed;
+
+}
+.topnav a {
+    color: black;
+    padding: 15px;
+}
+
+.topnav input[type="text"]{
+    
+    padding: 4px;
+    border-radius: 15px;
+    font-size: 20px;
+
+}
+.topnav input[type="button"]{
+
+
+    background-color: green;
+    border: 1px solid gray;
+    font-size: 25px;
+    border-radius:15px ;
+    color: white;
+
+} 
+.topnav a:hover{
+   cursor: pointer;
+  color:rgba(41, 38, 38, 0.197)
+}
+
+.lnav{
+    background-color: rgba(0, 0, 0, 0.697);
+    padding: 15px;
+
+
+}
+.lnav a{
+    color: white;
+    font-size: 15px;
+    padding: 15px;
+}
+.lnav a:hover{
+    cursor: pointer;
+    background-color:black;
+    
+}
