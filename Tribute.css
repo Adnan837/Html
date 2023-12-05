@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    background-color: black;
+}
+
+h1,p {
+    text-align: center;
+}
+section .quote{
+    background-color: white;
+    margin: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+
+}
+.quote{
+    font-size: 40px;
+    padding: 20px;
+    text-align: left;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-bottom: 40px;
+}
+.bio > h2{
+    text-align: center;
+    color: white;
+    line-height: 1.4;
+    font-size: 30px;
+}
+.bio > p{
+     display: block;
+    margin:  0px 400px 0px 400px;
+    line-height: 1.4;
+    text-align: center;
+    border: 1px solid rgb(0, 0, 0);
+}
+ 
